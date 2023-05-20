@@ -1,0 +1,30 @@
+.productsItemWrapper {
+  padding: 2rem;
+  background: #ddddff;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  width: 15rem;
+  display: flex;
+  border-radius: 1rem;
+  justify-content: space-between;
+}
+
+.columnContainer {
+  display: flex;
+  flex-flow: column;
+  * {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.styledButton {
+  border: none;
+  padding: 0.5rem 1rem;
+  background: #f0f0f0;
+  border: 1rem;
+  &:hover {
+    background: #d0d0d0;
+    transition: 0.3ms;
+    cursor: pointer;
+  }
+}

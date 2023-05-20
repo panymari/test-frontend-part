@@ -1,0 +1,15 @@
+.productsContainer {
+  display: flex;
+  max-width: 65rem;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.mainWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}

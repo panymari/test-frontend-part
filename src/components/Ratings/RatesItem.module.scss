@@ -1,0 +1,52 @@
+.userInfoContainer {
+  display: flex;
+  flex-flow: column;
+}
+
+.userName {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.dateWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.userEmail {
+  color: #ababf9;
+}
+
+.commentText {
+  color: #525252;
+  font-size: 0.9rem;
+}
+
+.infoWrapper > div {
+  margin-bottom: 0.8rem;
+}
+
+.frame {
+  width: 15rem;
+  height: 9rem;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.styledImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.commentWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 36rem;
+}
+
+.commentContainer {
+  background: #e3fbff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}

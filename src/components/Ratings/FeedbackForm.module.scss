@@ -1,0 +1,54 @@
+.formGroup {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-flow: column;
+}
+
+.inputName {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.formWrapper {
+  width: 22rem;
+  border: 2px solid #ababf9;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background: #ddddff;
+}
+
+.formControl {
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 1px solid black;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.fileUploadWrapper {
+  background: #e0dddd;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.submitButton {
+  width: 100%;
+  border: none;
+  padding: 0.8rem;
+  background: #525252;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 1rem;
+}
+
+.validationMessage {
+  color: red;
+}
+
+.styledTextArea {
+  height: 5rem;
+}

@@ -1,0 +1,25 @@
+.formContainer {
+  display: flex;
+  flex-flow: column;
+  width: 22rem;
+  * {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addButton {
+  background: #f0f0f0;
+  border: none;
+  padding: 1rem;
+  border: 1rem;
+  &:hover {
+    background: #d0d0d0;
+    transition: 0.3ms;
+    cursor: pointer;
+  }
+}

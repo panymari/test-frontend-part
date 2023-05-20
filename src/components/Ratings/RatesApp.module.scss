@@ -1,0 +1,33 @@
+.mainWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin: 2rem auto;
+  max-width: 70rem;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 17rem;
+  margin: 0 auto;
+}
+
+.sortButton {
+  border: 2px solid #ababf9;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background: #ddddff;
+  font-weight: bold;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.activeButton {
+  background: #ababf9;
+}
+
+.commentsWrapper > li {
+  margin-bottom: 1rem;
+}
