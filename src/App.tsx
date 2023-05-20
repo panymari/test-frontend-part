@@ -14,7 +14,6 @@ const App = () => {
       <ApolloProvider client={client}>
           <Router>
               <Routes>
-                  {/*<Route path="/" element={Home} />*/}
                   <Route path="/products" element={<ShippingListApp/>}/>
                   <Route path="/ratings" element={<RatesApp/>}/>
               </Routes>
